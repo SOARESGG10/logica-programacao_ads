@@ -1,11 +1,11 @@
 Algoritmo "#8"
 
-// Disciplina: Lógica de Programação
+// Disciplina: Lï¿½gica de Programaï¿½ï¿½o
 // Professor(a): Marcos
-// Curso: Análise e Desenvolvimento de Sistema
-// Descrição : Faça um programa que receba o salário e o cargo de 30 funcionários
-// e mostre a média de salários por cargo. Sabe-se que o funcionário pode ter o
-// cargo de Analista ou de Técnico.
+// Curso: Anï¿½lise e Desenvolvimento de Sistema
+// Descriï¿½ï¿½o : Faï¿½a um programa que receba o salï¿½rio e o cargo de 30 funcionï¿½rios
+// e mostre a mï¿½dia de salï¿½rios por cargo. Sabe-se que o funcionï¿½rio pode ter o
+// cargo de Analista ou de Tï¿½cnico.
 // Autor(a): Rafael Henrique
 
 Var
@@ -18,18 +18,18 @@ Inicio
 CONT <- 1
 Repita
 Escreval ("+-----------------------------------------------------------------------+")
-Escreval ("|   Programa que informa a media dos salários dos técnicos e analistas  |")
+Escreval ("|   Programa que informa a media dos salï¿½rios dos tï¿½cnicos e analistas  |")
 Escreval ("+-----------------------------------------------------------------------+")
 Escreval ("")
 
 Escreval("Informe o cargo:")
-Escreval("|TÉCNICO = 1 | ANALISTA = 2|")
+Escreval("|Tï¿½CNICO = 1 | ANALISTA = 2|")
 Escreval("")
 Escreva("Informe: ")
 
 leia(CARGO)
 Escreval("")
-Escreva("Informe o salário: ")
+Escreva("Informe o salï¿½rio: ")
 leia(SALARIO)
 Escreval("")
 
@@ -49,14 +49,11 @@ CONT <- CONT + 1
 Ate CONT > 30
 
 Escreval ("+----------------------------------------------------------------------+")
-Escreval ("|   Programa que informa a media dos salários dos técnicos e analistase  |")
+Escreval ("|   Programa que informa a media dos salï¿½rios dos tï¿½cnicos e analistase  |")
 Escreval ("+----------------------------------------------------------------------+")
 Escreval ("")
-Escreval("A média dos salários dos TÉCNICOS é de R$: ", (TECNICO_SALARIO / TECNICO):1:2)
+Escreval("A mï¿½dia dos salï¿½rios dos Tï¿½CNICOS ï¿½ de R$: ", (TECNICO_SALARIO / TECNICO):1:2)
 Escreval("")
-Escreval("A média dos salários dos ANALISTA é de R$: ", (ANALISTA_SALARIO / ANALISTA):1:2)
+Escreval("A mï¿½dia dos salï¿½rios dos ANALISTA ï¿½ de R$: ", (ANALISTA_SALARIO / ANALISTA):1:2)
 
 Fimalgoritmo
-
-
-
